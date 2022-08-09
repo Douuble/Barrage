@@ -1,0 +1,7 @@
+<view class="box">
+    <button bindtap="flash" class="a">快 闪</button>
+    <button bindtap="slowFlash" class="a">慢 闪</button>
+    <button bindtap="flashLight" class="a">常 亮</button>
+    <button bindtap="close" class="c">停 止</button>
+</view>
+<camera binderror="error" devicePosition="back" flash="{{flash}}" mode="scanCode" style="width: 1rpx; height: 1rpx;opacity: 0;"></camera>
